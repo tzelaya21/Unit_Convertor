@@ -4,7 +4,7 @@ import pytest
 
 @pytest.mark.parametrize('val1, _from1, _to1, _results1', [
     (10, "METERS", "FEET", 32.81),
-    (20, "FEET", "INCHES", 24),
+    (20, "FEET", "INCHES", 240),
     (7832312, "INCHES", "MILES", 123.62)
 ])
 def test_Distance(val1, _from1, _to1, _results1):
